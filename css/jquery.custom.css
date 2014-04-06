@@ -1,0 +1,31 @@
+/*! jQuery Mobile v1.0 jquerymobile.com | jquery.org/license */
+.ui-page {
+    background:#edecec !important;
+}
+.ui-content {
+    padding: 0 !important;
+    background:#edecec !important; 
+	height:400px !important;   
+}
+
+.ui-header{
+    padding: 0 !important;
+    background:#27b98e !important;
+	border:none !important; 
+}
+
+.ui-header1{
+    padding: 0 !important;
+    background:#27b98e !important;
+	border:none !important; 
+}
+
+.custom-topWhiteBglistView {
+	 
+}
+.custom-topWhiteBglistView li{
+	float:left;
+	background:#fff; 
+	width:33.29%;
+	
+}
