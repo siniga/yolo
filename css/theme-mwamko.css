@@ -14,7 +14,7 @@
 } 
 
 .ui-page1-content div{
-	width:79%;
+	width:80%;
 	height:100px;
 	background:#F00;
 } 
@@ -24,7 +24,7 @@
 .ui-page1-content ul li {
 	float:left;
 	list-style-type:none;
-	margin:0 1.4%;
+	margin:0 .5%;
 } 
 
 .ui-page1-content ul li a{	
