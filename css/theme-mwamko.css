@@ -1,0 +1,36 @@
+.ui-bar-a{
+	background:#27b98e;
+}
+.ui-page1-navbar ul li{
+	border-left:#f2f2f  thin solid;	
+} 
+.ui-page1-navbar ul li a{	
+	background:#fff; 
+	border-left:none;	
+} 
+
+.ui-page1-content {
+	margin:0 -7%; 	
+} 
+
+.ui-page1-content div{
+	width:79%;
+	height:100px;
+	background:#F00;
+} 
+.ui-page1-content ul {
+	margin:0 -8%;		
+} 
+.ui-page1-content ul li {
+	float:left;
+	list-style-type:none;
+	margin:0 1.4%;
+} 
+
+.ui-page1-content ul li a{	
+	border-left:none;	
+} 
+
+.ui-page1-content ul li a img{	
+		
+} 
