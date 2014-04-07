@@ -8,25 +8,31 @@
 	background:#fff; 
 	border-left:none;	
 } 
+.ui-page1 {
+	margin:0 0;
+	background:#edecec
+} 
 
 .ui-page1-content {
-	margin:0 -7%; 
-	background:#F00;
+	margin:0 -20%; 
 	padding:0;	
 } 
 
 .ui-page1-content div{
 	width:80%;
-	height:100px;
 	
 } 
 .ui-page1-content ul {
-	margin:10px -8%;		
+	position:relative;
+	left:8%;
+	margin:10px 0;		
 } 
 .ui-page1-content ul li {
+	position:relative;
 	float:left;
 	list-style-type:none;
-	margin:0 .5%;
+	margin:0 1.5%;
+	padding:0 0;
 } 
 
 .ui-page1-content ul li a{	
@@ -35,4 +41,31 @@
 
 .ui-page1-content ul li a img{	
 		
+} 
+.ui-page1-content ul li .price-holder{
+	position:absolute;
+	width:70%;
+	height:72px;
+	background:#fff;
+	top:123px;
+	z-index:19;			
+} 
+
+.ui-page1-content ul li .price-holder p:nth-child(1){
+	margin:10px 0;
+	font-size:.8em;
+	color:#1c2a4e;	
+	padding:0 18%;			
+} 
+.ui-page1-content ul li .price-holder p:nth-child(2){
+	margin:-12px 0;
+	font-size:.8em;
+	color:#666;	padding:0 20%;			
+} 
+.ui-page1-content ul li .price-holder p:nth-child(3){
+	margin:17px 0;
+	padding:0 20%;	
+	background:#27b98e;
+	font-size:.8em;
+	color:#fff;	
 } 
