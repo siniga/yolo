@@ -119,14 +119,13 @@ body{
 	font-size:.8em;
 	color:#27b98e;
 	background:#fff;
-	
 } 
-#ui-li-buyinfo-wrapper div{
+#ui-li-buyinfo-wrapper > ul li{
 	position:relative;
-	left:-3%;
+	top:-48px;
 	float:left;
 	background:#ccc;
+	margin:0 5%;
 	width:100px;
-	margin:0 0.5%;
 	height:74px;		
 } 
