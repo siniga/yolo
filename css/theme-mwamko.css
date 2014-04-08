@@ -86,19 +86,47 @@ body{
 } 
 
 /*view book page settings*/
+#ui-page1-viewBook ul{
+	
+	
+} 
 #ui-page1-viewBook ul li {
-	background:#f00;
+
 	
 } 
 #ui-page1-viewBook ul li p:first-child{
+	position:relative;
+	font-size:.8em;
+	color:#27b98e;
+	width:30%;
+	background:#fff;
+	z-index:9;
+	
+} 
+#ui-page1-viewBook ul li p:first-child span:nth-child(1){
+	position:relative;
+	top:2px;
+	
+} 
+#ui-page1-viewBook ul li p:first-child span:nth-child(2){
+	position:relative;
+	top:-3px;
+	
+} 
+#ui-page1-viewBook ul li #ui-page1-content-poster{
+	position:relative;
+	top:-47px;
 	font-size:.8em;
 	color:#27b98e;
 	background:#fff;
 	
 } 
-#ui-page1-viewBook ul li img{
-	font-size:.8em;
-	color:#27b98e;
-	background:#fff;
-	
+#ui-li-buyinfo-wrapper div{
+	position:relative;
+	left:-3%;
+	float:left;
+	background:#ccc;
+	width:100px;
+	margin:0 0.5%;
+	height:74px;		
 } 
