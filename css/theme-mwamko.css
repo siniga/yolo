@@ -1,48 +1,64 @@
 body{
 	box-shadow:none;
+	background:#F00;
+
+	
 }
 .ui-bar-a{
 	background:#27b98e;
+	padding:0  35%;
+	border:none;
+	-webkit-box-shadow: 1px 3px 5px -3px rgba(92,89,92,1);
+    -moz-box-shadow: 1px 3px 5px -3px rgba(92,89,92,1);
+    box-shadow: 1px 3px 5px -3px rgba(92,89,92,1);
 }
-.ui-page1-navbar ul li{
+.ui-navbar ul li{
 	border-left:#f2f2f  thin solid;	
 } 
-.ui-page1-navbar ul li a{	
+.ui-navbar ul li a{	
 	background:#fff; 
-	border-left:none;	
+	
 } 
 .ui-page1 {
 	margin:0 0;
-	background:#edecec
+	background:#f2f2f2;
 } 
 
 .ui-page1-content {
+	width:120%;
 	margin:0 -20%; 
-	padding:0;	
+	padding:0;
+		
 } 
 
 .ui-page1-content div{
-	width:80%;
+	width:100%;
+	
 	
 } 
 .ui-page1-content ul {
 	position:relative;
-	left:8%;
+	left:7%;
 	margin:10px 0;		
 } 
 .ui-page1-content ul li {
 	position:relative;
 	float:left;
 	list-style-type:none;
-	margin:10px 1.5%;
-	padding:0 0;
+	margin:0 1.2% 2px;
+	padding:0;
+
+
 } 
 
 .ui-page1-content ul li a{	
-	border-left:none;	
+	border-left:none;
+	padding:0;	
 } 
 
-.ui-page1-content ul li a img{	
+.ui-page1-content ul li a img{
+	padding:0;
+	border:#FFF solid 2px;
 		
 } 
 .ui-page1-content ul li .price-holder{
@@ -71,4 +87,18 @@ body{
 	background:#27b98e;
 	font-size:.8em;
 	color:#fff;	
+} 
+
+/*viewbook page settings*/
+.ui-page1-viewbookinfo div ul{
+	margin:-55px 0;	
+} 
+.ui-page1-viewbookinfo div ul li{
+	list-style-type:none;	
+} 
+.ui-page1-viewbookinfo div ul li p:first-child{
+	position:relative;
+	top:30px;
+	background:#fff;
+	width:20px;
 } 
