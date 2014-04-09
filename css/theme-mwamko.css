@@ -1,8 +1,6 @@
 body{
 	box-shadow:none;
-	background:#F00;
 
-	
 }
 .ui-bar-a{
 	background:#27b98e;
@@ -23,11 +21,36 @@ body{
 .ui-page1-content {
 	width:100%;
 	padding:0;
+	background:#f2f2f2;
 } 
 
 .ui-page1-content div{
-	width:104%;
+	width:100%;
 	padding:0;
+
+} 
+
+.ui-page1-content ul li {
+	position:relative;
+	float:left;
+	width:146px;
+	list-style-type:none;
+	margin:0 1%;
+	padding:0;
+} 
+
+
+.ui-page1-content ul li a{	
+	border-left:none;
+	padding:0;	
+} 
+
+.ui-page1-content ul li a img{
+	padding:0;
+	width:100%;
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
 } 
 
 .ui-page1-content ul li .price-holder{
@@ -53,9 +76,10 @@ body{
 .ui-page1-content ul li .price-holder p:nth-child(3){
 	margin:17px 0;
 	padding:0 20%;	
-	background:#27b98e;
+	background:#fff;
 	font-size:.8em;
-	color:#fff;	
+	color:#27b98e;	
+
 } 
 
 /*view book page settings*/
@@ -106,35 +130,15 @@ body{
 @media all and (min-width: 320px) and (max-width: 480px){/*320px or More*/
   .ui-page1-content ul {
 	position:relative;
-	width:100%;
+
+	width:99%;
 	height:300px;
-	left:1.2%;
-	margin:10px 0.5%;
-	padding:0;
-
-} 
-.ui-page1-content ul li {
-	position:relative;
-	float:left;
-	width:146px;
-	list-style-type:none;
-	margin:0 1.2%;
-	padding:0;
-
+	left:0%;
+	margin:10px 0;
+	padding:0 2%;
 
 } 
 
-.ui-page1-content ul li a{	
-	border-left:none;
-	padding:0;	
-} 
-
-.ui-page1-content ul li a img{
-	padding:0;
-	border:#FFF solid 2px;
-	width:100%;
-		
-} 
 }
 
 @media all and (width: 360px){/*360px */
@@ -161,28 +165,5 @@ body{
 	padding:0;
 
 } 
-.ui-page1-content ul li {
-	position:relative;
-	float:left;
-	width:146px;
-	list-style-type:none;
-	margin:0 1.2%;
-	padding:0;
-	
 
-
-} 
-
-.ui-page1-content ul li a{	
-	border-left:none;
-	padding:0;	
-} 
-
-.ui-page1-content ul li a img{
-	padding:0;
-	margin:0;
-	border:#FFF solid 2px;
-	width:100%;
-		
-} 
 }
