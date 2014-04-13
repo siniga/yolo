@@ -1,0 +1,37 @@
+@charset "utf-8";
+/* CSS Document */
+.nav-top {
+	margin:2px 0;	
+	width:100%;
+	height:30px;
+	background:#27b98e;
+	padding:7px 0;
+	
+}
+.nav-top li{
+	float:left;
+	list-style-type:none;
+	margin:0 5%;
+}
+.nav-top li a{
+    color:#fff;
+}
+
+.custom-thumbnails{
+	margin:0 -4%;
+	width:106%;
+	height:100px;
+	padding:0;
+}
+.custom-thumbnails li{
+	list-style-type:none;	
+	float:left;
+	margin:0 0.5%;		
+}
+.custom-thumbnails li .thumbnail{
+	position:relative;
+	margin:0 0 10px;
+		
+}
+
+
