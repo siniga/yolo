@@ -1,15 +1,47 @@
 @charset "utf-8";
 /* CSS Document */
-
-
-.mwamko-logo{
-	text-align:center;
-}
 .custom-nav{
-	background:#27b98e;
+	height:10px;
+	background:none;
+	border:none;
 }
+.logobar-custom ul{
+	vertical-align:central;
+	width:100%;
+	height:60px;
+	background:#27b98e;
+
+}
+.logobar-custom li{
+	padding:0;
+	margin:0 5%;
+	float:left;
+	border-right:#1c9b76 solid thin;
+	list-style-type:none;
+	height:60px;
+	
+}
+.logobar-custom li:first-child{
+	position:relative;
+	left:-15%;
+	padding-right:3%;
+	line-height:60px
+}
+.logobar-custom li:nth-child(2){
+	position:relative;
+	left:-5%;
+	width:50%;  
+	line-height:50px
+}
+.logobar-custom li:nth-child(3){
+	position:relative;
+	right:5%;
+    border:none;
+	line-height:60px;	
+}
+
 .nav-top {
-	margin:-20px 0;	
+	margin:-10px 0;	
 	width:100%;
 	height:30px;
 	background:#f2f2f2;
@@ -20,12 +52,15 @@
 .nav-top li{
 	float:left;
 	list-style-type:none;
-	margin:5px 0%;
+	margin:0 4%;
 	padding:0 4%;
+	height:30px;
+	line-height:33px;
 	border-left:#999 solid thin;
 }
 .nav-top li:first-child{
 	border:none;
+	
 }
 .nav-top li a{
     color:#666;
@@ -33,7 +68,7 @@
 }
 
 .custom-thumbnails{
-	margin:35px -17%;
+	margin:40px -17%;
 	width:130%;
 }
 .custom-thumbnails li{
